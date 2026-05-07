@@ -6,12 +6,14 @@ public class Person{
    public string[] Hobbies;
    
 
-   public Person(string firstName, string lastName){
+   public Person(string firstName, string lastName)
+   {
       FirstName = firstName;
       LastName = lastName;
     Hobbies = new string[0];
    }
-     public void addHobbies(parms string[] hobbies)
+     
+   public void AddHobbies(params string[] hobbies)
       {
          Hobbies = hobbies;
       }
