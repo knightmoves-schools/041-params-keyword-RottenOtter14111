@@ -13,9 +13,8 @@ public class Person
         Hobbies = new string[0];
     }
 
- 
     public void AddHobbies(params string[] hobbies)
     {
-        Hobbies = hobbies;
+        Hobbies = hobbies;       
     }
 }
